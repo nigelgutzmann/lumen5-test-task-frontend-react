@@ -1,0 +1,12 @@
+.todo__item {
+  &-complete {
+    color: #939393;
+  }
+  &__category {
+    display: inline-block;
+    background: darkblue;
+    color: #fff;
+    padding: 2px 4px;
+    margin: 0 4px;
+  }
+}

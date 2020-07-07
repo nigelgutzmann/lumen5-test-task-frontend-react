@@ -1,0 +1,24 @@
+.add-form {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+
+  & > * {
+    display: inline-block;
+    margin: 0 8px 0 0;
+  }
+  &__button {
+    cursor: pointer;
+    text-align: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: solid 1px gray;
+  }
+
+  & > .error {
+    background: palegoldenrod;
+    color: red;
+    padding: 3px 5px;
+  }
+}
